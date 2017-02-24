@@ -13,7 +13,7 @@ Valitse default project - valikosta DeviceBooker.Model
   Kirjoita:
     1) Enable-Migrations (saattaa tulla, että already enabled)
     2) Add-Migrations Initial
-    3) Update Database
+    3) Update-Database
   
 Toiminta:
 

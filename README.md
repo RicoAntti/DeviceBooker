@@ -1,7 +1,7 @@
 # DeviceBooker
 Projekti4
 
-HUOM! Kun ajat projektin VS:llä, linkki ei tule toimimaan, ellei se ohjaa suoraan localhost:xxxx -osoitteeseen. Eli jos linkkiin ilmestyy vaikka localhost:xxxx/Home/Index, poista /Home/Index
+HUOM! Kun ajat projektin VS:llä, linkki ei tule toimimaan, ellei se ohjaa suoraan localhost:xxxx -osoitteeseen. Eli jos linkkiin ilmestyy vaikka localhost:xxxx/Home/Index, poista /Home/Index linkistä
 
 Asenna SQL Server 
 

@@ -11,7 +11,7 @@ Visual Studiossa: View - Other Windows - Package Manager Console
 Valitse default project - valikosta DeviceBooker.Model
 
   Kirjoita:
-    1) Enable-Migrations
+    1) Enable-Migrations (saattaa tulla, että already enabled)
     2) Add-Migrations Initial
     3) Update Database
   

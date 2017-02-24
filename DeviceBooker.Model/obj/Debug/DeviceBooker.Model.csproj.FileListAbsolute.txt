@@ -1,0 +1,12 @@
+E:\VisualStudio Projects\Projekti4\DeviceBooker.Model\bin\Debug\testi7.Model.dll.config
+E:\VisualStudio Projects\Projekti4\DeviceBooker.Model\bin\Debug\testi7.Model.dll
+E:\VisualStudio Projects\Projekti4\DeviceBooker.Model\bin\Debug\testi7.Model.pdb
+E:\VisualStudio Projects\Projekti4\DeviceBooker.Model\bin\Debug\EntityFramework.dll
+E:\VisualStudio Projects\Projekti4\DeviceBooker.Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\VisualStudio Projects\Projekti4\DeviceBooker.Model\bin\Debug\EntityFramework.xml
+E:\VisualStudio Projects\Projekti4\DeviceBooker.Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\VisualStudio Projects\Projekti4\DeviceBooker.Model\obj\Debug\DeviceBooker.Model.csprojResolveAssemblyReference.cache
+E:\VisualStudio Projects\Projekti4\DeviceBooker.Model\obj\Debug\DeviceBooker.Model.csproj.GenerateResource.Cache
+E:\VisualStudio Projects\Projekti4\DeviceBooker.Model\obj\Debug\testi7.Model.dll
+E:\VisualStudio Projects\Projekti4\DeviceBooker.Model\obj\Debug\testi7.Model.pdb
+E:\VisualStudio Projects\Projekti4\DeviceBooker.Model\obj\Debug\DeviceBooker.Model.Migrations.Initial.resources

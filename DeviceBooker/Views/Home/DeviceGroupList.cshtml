@@ -1,0 +1,34 @@
+﻿@{
+    ViewBag.Title = "Laitelista";
+}
+
+<div class="row">
+    <div class="col-md-6"><h2>Savonian laiteryhmät</h2></div>
+</div>
+
+<div class="row">
+    <div class="col-xs-6">
+        <table id="deviceGroupListTable" class="table table-condensed table-striped">
+            <thead>
+                <tr>
+                    <th data-sort="string">Nimi<span class="pull-right"><i style="color: #ddd;" class="glyphicon glyphicon-sort sortArrow"></i></span></th>
+                </tr>
+                <tr id="deviceGroupListItemTemplate" class="hidden">
+                    <td class="name"></td>
+                </tr>
+            </thead>
+            <tbody id="deviceGroupList"></tbody>
+        </table>
+    </div>
+</div>
+
+@section Footer {
+    @Scripts.Render("~/Scripts/App/Models.js")
+
+    @Scripts.Render("~/Scripts/App/DeviceGroupList.js")
+    @Scripts.Render("~/Scripts/App/DeviceFunctions.js")
+
+<script type="text/javascript">
+    window.DeviceGroupList.Init();
+</script>
+}

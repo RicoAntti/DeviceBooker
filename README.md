@@ -30,8 +30,10 @@ DeviceFunctions.ts:n Api.Get viittaa ApiHelper.ts -tiedostoon
 ApiHelper.ts taas viittaa DeviceApiControlleriin.
 
 BUTTON-malli
+
 (fillDeviceGroupsList -funktio)
             var dgl = deviceGroupList[i];
             copy.find('BUTTONIN NIMI').attr('href', '/[kansio]/' + dgl.[muuttuja]);
+            
 (.cshtml)
            <a class="btn btn-xs btn-default BUTTONIN NIMI" href="#">Nappulan teksti</a>

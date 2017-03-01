@@ -31,7 +31,7 @@ ApiHelper.ts taas viittaa DeviceApiControlleriin.
 
 BUTTON-malli
 
-(fillDeviceGroupsList -funktio)
+"(fillDeviceGroupsList -funktio)
 
 var dgl = deviceGroupList[i];
             
@@ -39,4 +39,4 @@ copy.find('BUTTONIN NIMI').attr('href', '/[kansio]/' + dgl.[muuttuja]);
             
 (.cshtml)
 
-<a class="btn btn-xs btn-default BUTTONIN NIMI" href="#">Nappulan teksti</a>
+<a class="btn btn-xs btn-default BUTTONIN NIMI" href="#">Nappulan teksti</a>"

@@ -1,10 +1,10 @@
 BUTTON-malli
 
-(fillDeviceGroupsList -funktio)
+(Listantäyttö.ts - fillDeviceGroupsList)
             var dgl = deviceGroupList[i];
             
             copy.find('BUTTONIN NIMI').attr('href', '/[kansio]/' + dgl.[muuttuja]);
             
-(.cshtml)
+(Lista.cshtml)
 
             <a class="btn btn-xs btn-default BUTTONIN NIMI" href="#">Nappulan teksti</a>

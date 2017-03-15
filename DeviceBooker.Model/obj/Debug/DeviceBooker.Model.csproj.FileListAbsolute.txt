@@ -10,3 +10,13 @@ E:\VisualStudio Projects\Projekti4\DeviceBooker.Model\obj\Debug\DeviceBooker.Mod
 E:\VisualStudio Projects\Projekti4\DeviceBooker.Model\obj\Debug\testi7.Model.dll
 E:\VisualStudio Projects\Projekti4\DeviceBooker.Model\obj\Debug\testi7.Model.pdb
 E:\VisualStudio Projects\Projekti4\DeviceBooker.Model\obj\Debug\DeviceBooker.Model.Migrations.Initial.resources
+E:\VisualStudio Projects\DeviceBooker\DeviceBooker.Model\bin\Debug\testi7.Model.dll.config
+E:\VisualStudio Projects\DeviceBooker\DeviceBooker.Model\bin\Debug\testi7.Model.dll
+E:\VisualStudio Projects\DeviceBooker\DeviceBooker.Model\bin\Debug\testi7.Model.pdb
+E:\VisualStudio Projects\DeviceBooker\DeviceBooker.Model\bin\Debug\EntityFramework.dll
+E:\VisualStudio Projects\DeviceBooker\DeviceBooker.Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\VisualStudio Projects\DeviceBooker\DeviceBooker.Model\bin\Debug\EntityFramework.xml
+E:\VisualStudio Projects\DeviceBooker\DeviceBooker.Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\VisualStudio Projects\DeviceBooker\DeviceBooker.Model\obj\Debug\DeviceBooker.Model.csprojResolveAssemblyReference.cache
+E:\VisualStudio Projects\DeviceBooker\DeviceBooker.Model\obj\Debug\testi7.Model.dll
+E:\VisualStudio Projects\DeviceBooker\DeviceBooker.Model\obj\Debug\testi7.Model.pdb

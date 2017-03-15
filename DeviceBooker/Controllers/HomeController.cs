@@ -38,11 +38,9 @@ namespace DeviceBooker.Web.Controllers
             return View();
         }
 
-        [Route("UserRes")]
-        public ActionResult UserRes()
+        [Route("Laitteet/{groupid}")]
+        public ActionResult DeviceList()
         {
-            ViewBag.Message = "Your contact page.";
-
             return View();
         }
     }

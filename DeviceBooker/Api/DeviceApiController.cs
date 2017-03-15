@@ -13,7 +13,6 @@ namespace DeviceBooker.Web.Api
     public class DeviceApiController : ApiController
     {
         // GET: DeviceApi
-       
 
         private DeviceBookerContext _ctx = new DeviceBookerContext();
 
@@ -22,6 +21,15 @@ namespace DeviceBooker.Web.Api
         public List<DeviceGroup> ListDeviceGroups()
         {
             return _ctx.DeviceGroups.ToList();
+        }
+
+        [HttpPost]
+        [Route("CreateGroup")]
+        public bool CreateGroup(DeviceGroup newGroup)
+        {
+            _ctx.DeviceGroups.Add(newGroup);
+            _ctx.SaveChanges();
+            return true;
         }
     }
 }

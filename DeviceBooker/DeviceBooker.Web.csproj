@@ -185,6 +185,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -236,10 +237,13 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Home\DeviceGroupList.cshtml" />
+    <Content Include="Views\Home\DeviceList.cshtml" />
+    <Content Include="Views\Admin\CreateGroup.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="temp\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -252,7 +256,9 @@
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\App\ApiHelper.ts" />
     <TypeScriptCompile Include="Scripts\App\Common.ts" />
+    <TypeScriptCompile Include="Scripts\App\CreateGroup.ts" />
     <TypeScriptCompile Include="Scripts\App\DeviceFunctions.ts" />
+    <TypeScriptCompile Include="Scripts\App\DeviceList.ts" />
     <TypeScriptCompile Include="Scripts\App\DeviceGroupList.ts" />
     <TypeScriptCompile Include="Scripts\App\Models.ts" />
     <TypeScriptCompile Include="Scripts\typings\bootstrap\index.d.ts" />

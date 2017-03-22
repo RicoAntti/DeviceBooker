@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Laite";
+}
+@Styles.Render("~/Content/fullcalendar.css")
+@Scripts.Render("~/Scripts/lib/moment.min.js")
+@Scripts.Render("~/Scripts/fullcalendar.js")
+@Scripts.Render("~/Scripts/App/Calendar.js")
+
+<div id='calendar'></div>
+
+@section Footer {
+
+    @Scripts.Render("~/Scripts/App/Models.js")
+    @Scripts.Render("~/Scripts/App/Device.js")
+    @Scripts.Render("~/Scripts/App/DeviceFunctions.js")
+
+
+    <script type="text/javascript">
+        window.Calendar.getCalendar();
+    </script>
+}

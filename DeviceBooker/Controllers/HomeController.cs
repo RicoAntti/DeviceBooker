@@ -45,5 +45,11 @@ namespace DeviceBooker.Web.Controllers
 
             return View();
         }
+
+        [Route("Omat varaukset")]
+        public ActionResult Device()
+        {
+            return View();
+        }
     }
 }

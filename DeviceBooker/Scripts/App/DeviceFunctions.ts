@@ -2,24 +2,30 @@
 
     export function CreateNewGroup(data: Models.DeviceGroup): JQueryPromise<boolean> {
         var def = $.Deferred<boolean>();
-        Api.Post("CreateGroup/", JSON.stringify(data), data => {
-            def.resolve(data);
-        }, err => {
-            console.log("ERR: " + err);
-            def.resolve(null);
 
+        $.ajax({
+            type: "POST",
+            url: "/Api/CreateGroup",
+            data: JSON.stringify(data),
+            contentType: 'application/json; charset=utf-8',
+            dataType: "json",
+            success: function (data) {
+                def.resolve(data);
+            }
         });
+
         return def.promise();
     }
 
     export function ListDeviceGroups(): JQueryPromise<Models.DeviceGroup[]> {
         var def = $.Deferred<Models.DeviceGroup[]>();
 
-        Api.Get("DeviceGroupList", data => {
-            def.resolve(data);
-        }, err => {
-            console.log("ERR: " + err);
-            def.resolve(null);
+        $.ajax({
+            type: "Get",
+            url: "/Api/DeviceGroupList",
+            success: function (data) {
+                def.resolve(data);
+            }
         });
 
         return def.promise();
@@ -28,11 +34,12 @@
     export function ListDevices(id:number): JQueryPromise<Models.Device[]> {
         var def = $.Deferred<Models.Device[]>();
 
-        Api.Get("DeviceList/"+id, data => {
-            def.resolve(data);
-        }, err => {
-            console.log("ERR: " + err);
-            def.resolve(null);
+        $.ajax({
+            type: "Get",
+            url: "/Api/DeviceList/" + id,
+            success: function (data) {
+                def.resolve(data);
+            }
         });
 
         return def.promise();

@@ -255,7 +255,6 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="Scripts\App\ApiHelper.ts" />
     <TypeScriptCompile Include="Scripts\App\Common.ts" />
     <TypeScriptCompile Include="Scripts\App\CreateGroup.ts" />
     <TypeScriptCompile Include="Scripts\App\DeviceFunctions.ts" />

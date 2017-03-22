@@ -71,4 +71,3 @@ var Api;
     }
     Api.Delete = Delete;
 })(Api || (Api = {}));
-//# sourceMappingURL=ApiHelper.js.map

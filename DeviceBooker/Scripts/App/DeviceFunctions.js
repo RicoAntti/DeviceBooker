@@ -2,33 +2,39 @@ var DeviceFunctions;
 (function (DeviceFunctions) {
     function CreateNewGroup(data) {
         var def = $.Deferred();
-        Api.Post("CreateGroup/", JSON.stringify(data), function (data) {
-            def.resolve(data);
-        }, function (err) {
-            console.log("ERR: " + err);
-            def.resolve(null);
+        $.ajax({
+            type: "POST",
+            url: "/Api/CreateGroup",
+            data: JSON.stringify(data),
+            contentType: 'application/json; charset=utf-8',
+            dataType: "json",
+            success: function (data) {
+                def.resolve(data);
+            }
         });
         return def.promise();
     }
     DeviceFunctions.CreateNewGroup = CreateNewGroup;
     function ListDeviceGroups() {
         var def = $.Deferred();
-        Api.Get("DeviceGroupList", function (data) {
-            def.resolve(data);
-        }, function (err) {
-            console.log("ERR: " + err);
-            def.resolve(null);
+        $.ajax({
+            type: "Get",
+            url: "/Api/DeviceGroupList",
+            success: function (data) {
+                def.resolve(data);
+            }
         });
         return def.promise();
     }
     DeviceFunctions.ListDeviceGroups = ListDeviceGroups;
     function ListDevices(id) {
         var def = $.Deferred();
-        Api.Get("DeviceList/" + id, function (data) {
-            def.resolve(data);
-        }, function (err) {
-            console.log("ERR: " + err);
-            def.resolve(null);
+        $.ajax({
+            type: "Get",
+            url: "/Api/DeviceList/" + id,
+            success: function (data) {
+                def.resolve(data);
+            }
         });
         return def.promise();
     }

@@ -23,5 +23,13 @@ namespace DeviceBooker.Web.Controllers
             return View();
         }
 
+        [Route("Lisää laite ryhmään")]
+        public ActionResult CreateDevice()
+        {
+            ViewBag.Message = "CreateGroup";
+
+            return View();
+        }
+
     }
 }

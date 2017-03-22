@@ -9,6 +9,7 @@
 
     export class DeviceGroup {
         constructor() { }
+        Id: number;
         GroupName: string;
     }
 }

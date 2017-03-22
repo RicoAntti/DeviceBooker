@@ -22,9 +22,9 @@ var DeviceFunctions;
         return def.promise();
     }
     DeviceFunctions.ListDeviceGroups = ListDeviceGroups;
-    function ListDevices() {
+    function ListDevices(id) {
         var def = $.Deferred();
-        Api.Get("DeviceList", function (data) {
+        Api.Get("DeviceList/" + id, function (data) {
             def.resolve(data);
         }, function (err) {
             console.log("ERR: " + err);

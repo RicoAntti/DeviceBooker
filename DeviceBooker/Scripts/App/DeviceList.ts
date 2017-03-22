@@ -2,15 +2,15 @@
 
     var deviceList: Models.Device[];
 
-    export function Init() {
+    export function Init(groupid: number) {
 
-        LoadData();
+        LoadData(groupid);
 
     }
 
-    function LoadData() {
+    function LoadData(groupid: number) {
         Utils.blockUI("Ladataan laitteita.. odota hetki");
-        var def = DeviceFunctions.ListDevices();
+        var def = DeviceFunctions.ListDevices(groupid);
         def.done((data: Models.Device[]) => {
             Utils.unblockUI();
             if (data) {

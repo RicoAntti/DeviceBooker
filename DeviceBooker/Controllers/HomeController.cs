@@ -39,8 +39,10 @@ namespace DeviceBooker.Web.Controllers
         }
 
         [Route("Laitteet/{groupid}")]
-        public ActionResult DeviceList()
+        public ActionResult DeviceList(int groupid)
         {
+            @ViewBag.groupid = groupid;
+
             return View();
         }
     }

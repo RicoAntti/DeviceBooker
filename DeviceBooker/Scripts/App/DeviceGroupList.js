@@ -26,7 +26,8 @@ var DeviceGroupList;
         for (var i = 0; i < deviceGroupList.length; i++) {
             var copy = template.clone();
             var dgl = deviceGroupList[i];
-            copy.find('.name').html(dgl.GroupName);
+            copy.find('.DeviceListBtn').html(dgl.GroupName);
+            copy.find('.DeviceListBtn').attr('href', '/Laitteet/' + dgl.Id);
             copy.removeClass('hidden');
             container.append(copy);
         }

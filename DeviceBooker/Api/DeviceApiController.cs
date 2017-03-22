@@ -23,6 +23,13 @@ namespace DeviceBooker.Web.Api
             return _ctx.DeviceGroups.ToList();
         }
 
+        [HttpGet]
+        [Route("DeviceList/{id}")]
+        public List<Device> ListDevice(int id)
+        {
+            return _ctx.Devices.Where(r => r.DeviceGroupId == id).ToList();
+        }
+
         [HttpPost]
         [Route("CreateGroup")]
         public bool CreateGroup(DeviceGroup newGroup)

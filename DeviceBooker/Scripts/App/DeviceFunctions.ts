@@ -25,10 +25,10 @@
         return def.promise();
     }
 
-    export function ListDevices(): JQueryPromise<Models.Device[]> {
+    export function ListDevices(id:number): JQueryPromise<Models.Device[]> {
         var def = $.Deferred<Models.Device[]>();
 
-        Api.Get("DeviceList", data => {
+        Api.Get("DeviceList/"+id, data => {
             def.resolve(data);
         }, err => {
             console.log("ERR: " + err);

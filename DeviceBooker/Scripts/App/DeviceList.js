@@ -1,13 +1,13 @@
 var DeviceList;
 (function (DeviceList) {
     var deviceList;
-    function Init() {
-        LoadData();
+    function Init(groupid) {
+        LoadData(groupid);
     }
     DeviceList.Init = Init;
-    function LoadData() {
+    function LoadData(groupid) {
         Utils.blockUI("Ladataan laitteita.. odota hetki");
-        var def = DeviceFunctions.ListDevices();
+        var def = DeviceFunctions.ListDevices(groupid);
         def.done(function (data) {
             Utils.unblockUI();
             if (data) {

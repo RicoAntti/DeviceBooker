@@ -16,7 +16,7 @@
 
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-inverse navbar-fixed-top text-white" style="background-color: #f44292;">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -24,15 +24,16 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("DB v0.1", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("DB v0.1", "Index", "Home", new { area = "" }, new { @class = "navbar-brand", style = "color: white" })
             </div>
             <div class="navbar-collapse collapse pull-right">
                     <ul class="nav navbar-nav">             
-                        <li>@Html.ActionLink("Laitteet", "DeviceGroupList", "Home")</li>
-                        <li>@Html.ActionLink("Etsi", "Contact", "Api")</li>
-                        <li>@Html.ActionLink("Omat varaukset", "Device", "Home")</li>
-                        <li>@Html.ActionLink("Luo laiteryhmä", "CreateGroup", "Admin")</li>
-                        <li>@Html.ActionLink("Lisää laite ryhmään", "CreateDevice", "Admin")</li>
+                        <li>@Html.ActionLink("Laitteet", "DeviceGroupList", "Home", null, new { style = "color: white" })</li>
+                        <li>@Html.ActionLink("Etsi", "Contact", "Api", null, new { style = "color: white" })</li>
+                        <li>@Html.ActionLink("Omat varaukset", "UserRes", "Api", null, new { style = "color: white" })</li>
+                        <li>@Html.ActionLink("Luo laiteryhmä", "CreateGroup", "Admin", null, new { style = "color: white" })</li>
+                        <li>@Html.ActionLink("Lisää laite ryhmään", "CreateDevice", "Admin", null, new { style = "color: white" })</li>
+                        <li>@Html.ActionLink("Kalenteri", "Calendar", "Home", null, new { style = "color: white" })</li>
                     </ul>
             </div>
         </div>

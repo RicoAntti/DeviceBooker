@@ -33,6 +33,19 @@ namespace DeviceBooker.Model
 
     }
 
+    public class Reservation
+    {
+        public int Id { get; set; }
+        public string Title { get; set; }
+        public DateTime StartTime { get; set; }
+        public DateTime EndTime { get; set; }
+
+        //Seuraavassa luodaan yhteys ja vierasavain DeviceGroupiin:
+        public int DeviceId { get; set; }
+        [ForeignKey("DeviceId")]
+        public virtual Device Device { get; set; }
+    }
+
 }
 
 /*  Kun SQL Server on käynnissä ja *Context.cs luotu

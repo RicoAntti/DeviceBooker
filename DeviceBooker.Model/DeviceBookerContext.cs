@@ -24,5 +24,7 @@ namespace DeviceBooker.Model
 
         public DbSet<DeviceGroup> DeviceGroups { get; set; }
 
+        public DbSet<Reservation> Reservations { get; set; }
+
     }
 }

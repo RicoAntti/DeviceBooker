@@ -1,3 +1,0 @@
-﻿interface JQueryStatic {
-    jGrowl: any;
-}

@@ -238,3 +238,27 @@ E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js
 E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js.map
 E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js
 E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js.map
+E:\gituhub\DeviceBooker\DeviceBooker\Scripts\App\Common.js
+E:\gituhub\DeviceBooker\DeviceBooker\Scripts\App\Common.js.map
+E:\gituhub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js
+E:\gituhub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js.map
+E:\gituhub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js
+E:\gituhub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js.map
+E:\gituhub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js
+E:\gituhub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js.map
+E:\gituhub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js
+E:\gituhub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js.map
+E:\gituhub\DeviceBooker\DeviceBooker\Scripts\App\Models.js
+E:\gituhub\DeviceBooker\DeviceBooker\Scripts\App\Models.js.map
+E:\gituhub\DeviceBooker\DeviceBooker\Scripts\App\Common.js
+E:\gituhub\DeviceBooker\DeviceBooker\Scripts\App\Common.js.map
+E:\gituhub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js
+E:\gituhub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js.map
+E:\gituhub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js
+E:\gituhub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js.map
+E:\gituhub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js
+E:\gituhub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js.map
+E:\gituhub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js
+E:\gituhub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js.map
+E:\gituhub\DeviceBooker\DeviceBooker\Scripts\App\Models.js
+E:\gituhub\DeviceBooker\DeviceBooker\Scripts\App\Models.js.map

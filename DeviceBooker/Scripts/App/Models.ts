@@ -12,4 +12,14 @@
         Id: number;
         GroupName: string;
     }
+
+    export class Reservation {
+        constructor() { }
+        Id: number;
+        Title: string;
+        StartTime: Date;
+        EndTime: Date;
+        DeviceId: number;
+        Device: Models.Device;
+    }
 }

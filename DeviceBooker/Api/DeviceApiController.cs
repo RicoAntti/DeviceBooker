@@ -38,5 +38,19 @@ namespace DeviceBooker.Web.Api
             _ctx.SaveChanges();
             return true;
         }
+
+        [HttpPost]
+        [Route("Reservation")]
+        public void AddReservation(Reservation newReservation)
+        {
+            /*if (HttpContext.Current.Request.Form.AllKeys.Any())
+            {
+                string title = HttpContext.Current.Request.Form.Get("Title");
+                System.Diagnostics.Debug.WriteLine("hei: " + title);
+            }*/
+            System.Diagnostics.Debug.WriteLine("hei: " + newReservation);
+            _ctx.Reservations.Add(newReservation);
+            _ctx.SaveChanges();
+        }
     }
 }

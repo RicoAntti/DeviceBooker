@@ -1,474 +1,240 @@
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\ApiHelper.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\ApiHelper.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\Common.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\Common.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\Models.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\Models.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\ApiHelper.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\ApiHelper.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\Common.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\Common.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\Models.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\Models.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\ApiHelper.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\ApiHelper.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\Common.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\Common.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\Models.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\Models.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\ApiHelper.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\ApiHelper.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\Common.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\Common.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\Models.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\Models.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\ApiHelper.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\ApiHelper.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\Common.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\Common.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\Models.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\Models.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\ApiHelper.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\ApiHelper.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\Common.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\Common.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\Models.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\Models.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\ApiHelper.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\ApiHelper.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\Common.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\Common.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\Models.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\Models.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\ApiHelper.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\ApiHelper.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\Common.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\Common.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\Models.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\Models.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\ApiHelper.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\ApiHelper.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\Common.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\Common.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js.map
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\Models.js
-E:\VisualStudio Projects\DeviceBooker\DeviceBooker\Scripts\App\Models.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\ApiHelper.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\ApiHelper.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\ApiHelper.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\ApiHelper.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\ApiHelper.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\ApiHelper.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\ApiHelper.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\ApiHelper.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Calendar.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Common.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\CreateGroup.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceFunctions.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\DeviceGroupList.js.map
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js
-E:\GitHub\DeviceBooker\DeviceBooker\Scripts\App\Models.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Common.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\CreateGroup.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceFunctions.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\DeviceGroupList.js.map
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js
+E:\net core\DeviceBooker-master\DeviceBooker\Scripts\App\Models.js.map

@@ -32,3 +32,4 @@ var DeviceList;
         }
     }
 })(DeviceList || (DeviceList = {}));
+//# sourceMappingURL=DeviceList.js.map

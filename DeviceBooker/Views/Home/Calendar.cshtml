@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "kalenteri";
+}
+
+@Styles.Render("~/Content/fullcalendar.css")
+
+@Styles.RenderFormat(@"<link href=""~/Content/fullcalendar.print.css""
+                             rel=""stylesheet""
+                             media=""print"" />",
+                      "~/Content/css"),
+@Scripts.Render("~/Scripts/lib/moment.min.js")
+@Scripts.Render("~/Scripts/fullcalendar.js")
+@Scripts.Render("~/Scripts/CalendarScript.js")
+
+<div class="row">
+    <div class="col-md-6"><h2>Kalenteri</h2></div>
+</div>
+
+<div id='calendar'></div>

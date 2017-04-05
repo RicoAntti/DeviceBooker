@@ -48,7 +48,10 @@ namespace DeviceBooker.Web.Api
                 string title = HttpContext.Current.Request.Form.Get("Title");
                 System.Diagnostics.Debug.WriteLine("hei: " + title);
             }*/
-            System.Diagnostics.Debug.WriteLine("hei: " + newReservation);
+            System.Diagnostics.Debug.WriteLine("title: " + newReservation.Title);
+            System.Diagnostics.Debug.WriteLine("s: " + newReservation.StartTime);
+            System.Diagnostics.Debug.WriteLine("e: " + newReservation.EndTime);
+            System.Diagnostics.Debug.WriteLine("dvid: " + newReservation.DeviceId);
             _ctx.Reservations.Add(newReservation);
             _ctx.SaveChanges();
         }

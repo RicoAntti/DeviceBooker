@@ -20,10 +20,13 @@ $(document).ready(function () {
             if (title) {
 
                 var DG = new Models.Reservation();
+                var numbe = 1;
+                console.log(numbe);
+                alert(numbe);
                 DG.Title = title;
                 DG.StartTime = start;
                 DG.EndTime = end;
-                DG.DeviceId = "1";
+                DG.DeviceId = numbe;
                 calendarFunc(DG);
                 /*
                 data.append("Title", title);
@@ -53,7 +56,7 @@ $(document).ready(function () {
 });
 
 function calendarFunc(data) {
-    /*  $.ajax({
+    /* $.ajax({
           type: "Post",
           url: "/Api/Reservation",
           data: data,
@@ -68,13 +71,16 @@ function calendarFunc(data) {
       });*/
     console.log("tulee tänne");
     $.ajax({
+        contentType: 'application/json; charset=utf-8',
+        dataType: "json",
         type: "POST",
         url: "/Api/Reservation",
         data: JSON.stringify(data),
-        contentType: 'application/json; charset=utf-8',
-        dataType: "json",
-        success: function (data) {
-            def.resolve(data);
+        success: function () {
+            alert('success!');
+        },
+        error: function () {
+            alert('error!');
         }
     });
 }

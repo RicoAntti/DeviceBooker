@@ -23,6 +23,7 @@ $(document).ready(function () {
                 DG.Title = title;
                 DG.StartTime = start;
                 DG.EndTime = end;
+                DG.DeviceId = "1";
                 calendarFunc(DG);
                 /*
                 data.append("Title", title);

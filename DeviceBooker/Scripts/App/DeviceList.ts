@@ -22,6 +22,7 @@
         });
     }
 
+
     function fillDeviceList(devicelist: Models.Device[]) {
 
         var template = $("#deviceListItemTemplate");

@@ -39,6 +39,14 @@ namespace DeviceBooker.Web.Api
             return true;
         }
 
+        [Route("CreateDevice")]
+        public bool CreateDevice(Device newDevice)
+        {
+            _ctx.Devices.Add(newDevice);
+            _ctx.SaveChanges();
+            return true;
+        }
+
         [HttpPost]
         [Route("Reservation")]
         public void AddReservation(Reservation newReservation)

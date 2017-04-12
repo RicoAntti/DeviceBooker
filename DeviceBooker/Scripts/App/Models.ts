@@ -3,7 +3,7 @@
         constructor() { }
         Id: number;
         Name: string;
-        DeviceId: number;
+        DeviceGroupId: number;
         DeviceGroup: Models.DeviceGroup;
     }
 

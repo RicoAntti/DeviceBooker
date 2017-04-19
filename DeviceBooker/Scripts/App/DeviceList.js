@@ -28,9 +28,12 @@ var DeviceList;
             var dgl = deviceList[i];
             copy.find('.name').html(dgl.Name);
             copy.find('.description').html(dgl.Description);
+            copy.attr('id', dgl.Id);
             copy.removeClass('hidden');
             container.append(copy);
         }
+        $('#deviceListTable').find('tr').click(function () {
+            location.href = "/Kalenteri/" + $(this).attr('id');
+        });
     }
 })(DeviceList || (DeviceList = {}));
-//# sourceMappingURL=DeviceList.js.map

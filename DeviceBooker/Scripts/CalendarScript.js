@@ -2,14 +2,16 @@ var CalendarScript;
 (function (CalendarScript) {
     //var data = new FormData();
     var evs = [];
-    function Init() {
+    var deviceId;
+    function Init(deviId) {
+        deviceId = deviId;
         getData();
     }
     CalendarScript.Init = Init;
     function getData() {
         getReservations();
         function getReservations() {
-            var def = getReservationsFromDB(1);
+            var def = getReservationsFromDB(deviceId);
             var arra = [];
             def.done(function (data) {
                 if (data) {
@@ -64,12 +66,10 @@ var CalendarScript;
                 var title = prompt('');
                 if (title) {
                     var DG = new Models.Reservation();
-                    var numbe = 1;
-                    console.log(numbe);
                     DG.Title = title;
                     DG.StartTime = new Date(start);
                     DG.EndTime = new Date(end);
-                    DG.DeviceId = numbe;
+                    DG.DeviceId = deviceId;
                     calendarFunc(DG);
                     calendar.fullCalendar('renderEvent', {
                         title: title,
@@ -103,4 +103,3 @@ var CalendarScript;
     }
     ;
 })(CalendarScript || (CalendarScript = {}));
-//# sourceMappingURL=CalendarScript.js.map

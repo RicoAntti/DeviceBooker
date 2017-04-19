@@ -2,11 +2,11 @@
     //var data = new FormData();
 
     var evs = [];
-
-    export function Init() {
-
+    var deviceId;
+    export function Init(deviId : number) {
+        deviceId = deviId;
         getData();
-
+        
     }
 
     function getData() {
@@ -14,13 +14,15 @@
         getReservations();
 
         function getReservations() {
-            var def = getReservationsFromDB(1);
+
+            var def = getReservationsFromDB(deviceId);
             var arra = [];
 
             def.done((data: Models.Reservation[]) => {
                 if (data) {
                     for (var i = 0; i < data.length; i++) {
                         evs.push({
+                            
                             title: data[i].Title,
                             start: data[i].StartTime,
                             end: data[i].EndTime,
@@ -78,12 +80,11 @@
                 var title = prompt('');
                 if (title) {
                     var DG = new Models.Reservation();
-                    var numbe = 1;
-                    console.log(numbe);
+                    
                     DG.Title = title;
                     DG.StartTime = new Date(start);
                     DG.EndTime = new Date(end);
-                    DG.DeviceId = numbe;
+                    DG.DeviceId = deviceId;
                     calendarFunc(DG);
 
                     calendar.fullCalendar('renderEvent',

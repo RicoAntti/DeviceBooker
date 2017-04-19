@@ -33,13 +33,16 @@
         for (var i = 0; i < deviceList.length; i++) {
             var copy = template.clone();
             var dgl = deviceList[i];
-
+           
             copy.find('.name').html(dgl.Name);
             copy.find('.description').html(dgl.Description);
-
+            copy.attr('id', dgl.Id);
             copy.removeClass('hidden');
             container.append(copy);
         }
+        $('#deviceListTable').find('tr').click(function () {
+            location.href="/Kalenteri/"+$(this).attr('id');
+        });
     }
     
 }

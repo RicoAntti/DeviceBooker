@@ -46,9 +46,10 @@ namespace DeviceBooker.Web.Controllers
             return View();
         }
 
-        [Route("Kalenteri")]
-        public ActionResult Calendar()
+        [Route("Kalenteri/{deviceId}")]
+        public ActionResult Calendar(int deviceId)
         {
+            ViewBag.deviceId = deviceId;
             return View();
         }
     }

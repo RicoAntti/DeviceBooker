@@ -10,17 +10,14 @@
     <div class="col-xs-6">
         <table id="deviceListTable" class="table table-condensed table-striped">
             <thead>
-               <tr>
-                   <th data-sort="string">Nimi</th>
-                   <th data-sort="string">Kuvaus</th>
-               </tr>
-
-
-
-               <tr id="deviceListItemTemplate" class="hidden">
-                   <td class="name"></td>
-                   <td class="description"></td>
-               </tr>
+                <tr>
+                    <th data-sort="string">Nimi</th>
+                    <th data-sort="string">Kuvaus</th>                                  
+                </tr>
+                    <tr id="deviceListItemTemplate" class="clickme hidden" data-href="#" onmouseover="" style="cursor: pointer;">
+                        <td class="name"></td>
+                        <td class="description"></td>
+                    </tr>
             </thead>
             <tbody id="deviceList">
 

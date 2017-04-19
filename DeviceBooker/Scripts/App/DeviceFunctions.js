@@ -55,4 +55,3 @@ var DeviceFunctions;
     }
     DeviceFunctions.ListDevices = ListDevices;
 })(DeviceFunctions || (DeviceFunctions = {}));
-//# sourceMappingURL=DeviceFunctions.js.map

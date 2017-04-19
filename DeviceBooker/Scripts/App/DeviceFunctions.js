@@ -15,6 +15,21 @@ var DeviceFunctions;
         return def.promise();
     }
     DeviceFunctions.CreateNewGroup = CreateNewGroup;
+    function CreateNewDevice(data) {
+        var def = $.Deferred();
+        $.ajax({
+            type: "POST",
+            url: "/Api/CreateDevice",
+            data: JSON.stringify(data),
+            contentType: 'application/json; charset=utf-8',
+            dataType: "json",
+            success: function (data) {
+                def.resolve(data);
+            }
+        });
+        return def.promise();
+    }
+    DeviceFunctions.CreateNewDevice = CreateNewDevice;
     function ListDeviceGroups() {
         var def = $.Deferred();
         $.ajax({

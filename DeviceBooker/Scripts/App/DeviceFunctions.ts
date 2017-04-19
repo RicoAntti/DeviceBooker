@@ -16,7 +16,22 @@
 
         return def.promise();
     }
+    export function CreateNewDevice(data: Models.Device): JQueryPromise<boolean> {
+        var def = $.Deferred<boolean>();
 
+        $.ajax({
+            type: "POST",
+            url: "/Api/CreateDevice",
+            data: JSON.stringify(data),
+            contentType: 'application/json; charset=utf-8',
+            dataType: "json",
+            success: function (data) {
+                def.resolve(data);
+            }
+        });
+
+        return def.promise();
+    }
     export function ListDeviceGroups(): JQueryPromise<Models.DeviceGroup[]> {
         var def = $.Deferred<Models.DeviceGroup[]>();
 

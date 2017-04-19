@@ -27,6 +27,7 @@ var DeviceList;
             var copy = template.clone();
             var dgl = deviceList[i];
             copy.find('.name').html(dgl.Name);
+            copy.find('.description').html(dgl.Description);
             copy.removeClass('hidden');
             container.append(copy);
         }

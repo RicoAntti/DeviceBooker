@@ -647,6 +647,7 @@
     <TypeScriptCompile Include="Scripts\App\DeviceList.ts" />
     <TypeScriptCompile Include="Scripts\App\DeviceGroupList.ts" />
     <TypeScriptCompile Include="Scripts\App\Models.ts" />
+    <TypeScriptCompile Include="Scripts\CalendarScript.ts" />
     <TypeScriptCompile Include="Scripts\typings\bootstrap\index.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\fullCalendar\fullCalendar.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\fullCalendar\v1\fullCalendar.d.ts" />

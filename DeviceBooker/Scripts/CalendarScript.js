@@ -17,7 +17,8 @@ var CalendarScript;
                         evs.push({
                             title: data[i].Title,
                             start: data[i].StartTime,
-                            end: data[i].EndTime
+                            end: data[i].EndTime,
+                            allDay: true
                         });
                     }
                     CalendarFunctions();
@@ -58,6 +59,7 @@ var CalendarScript;
             },
             selectable: true,
             selectHelper: true,
+            selectOverlap: false,
             select: function (start, end, allDay) {
                 var title = prompt('');
                 if (title) {

@@ -9,6 +9,7 @@ namespace DeviceBooker.Web.Controllers
     public class AdminController : Controller
     {
 
+        [Route("CreateGroup")]
         [Route("Luo laiteryhmä")]
         public ActionResult CreateGroup()
         {
@@ -23,6 +24,7 @@ namespace DeviceBooker.Web.Controllers
             return View();
         }
 
+        [Route("CreateDevice")]
         [Route("Lisää laite ryhmään")]
         public ActionResult CreateDevice()
         {

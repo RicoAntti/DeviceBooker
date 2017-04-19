@@ -14,7 +14,7 @@ namespace DeviceBooker.Model
             Database.SetInitializer(new CreateDatabaseIfNotExists<DeviceBookerContext>());
         }
         public DeviceBookerContext()
-            : base("testiDB")
+            : base("DBDB")
         {
             // EF 6 feature
             //Database.Log = s => Logger.Trace(s);

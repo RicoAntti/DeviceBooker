@@ -1,17 +1,23 @@
-var CalendarScript;
-(function (CalendarScript) {
+﻿module CalendarScript {
     //var data = new FormData();
+
     var evs = [];
-    function Init() {
+
+    export function Init() {
+
         getData();
+
     }
-    CalendarScript.Init = Init;
+
     function getData() {
+
         getReservations();
+
         function getReservations() {
             var def = getReservationsFromDB(1);
             var arra = [];
-            def.done(function (data) {
+
+            def.done((data: Models.Reservation[]) => {
                 if (data) {
                     for (var i = 0; i < data.length; i++) {
                         evs.push({
@@ -22,15 +28,19 @@ var CalendarScript;
                         });
                     }
                     CalendarFunctions();
-                }
-                else {
+                } else {
                     alert("virhe");
                 }
+
             });
+
         }
-        function getReservationsFromDB(devId) {
-            var def = $.Deferred();
+
+        function getReservationsFromDB(devId: number): JQueryPromise<Models.Reservation[]> {
+            var def = $.Deferred<Models.Reservation[]>();
+
             var id = devId;
+
             $.ajax({
                 type: "GET",
                 url: "/Api/Reservation/" + id,
@@ -42,15 +52,19 @@ var CalendarScript;
                     alert('error!');
                 }
             });
+
             return def.promise();
         }
     }
+
+
     function CalendarFunctions() {
         /* var date = new Date();
          var d = date.getDate();
          var m = date.getMonth();
          var y = date.getFullYear();
          */
+
         var calendar = $('#calendar').fullCalendar({
             header: {
                 left: 'prev,next today',
@@ -71,12 +85,15 @@ var CalendarScript;
                     DG.EndTime = new Date(end);
                     DG.DeviceId = numbe;
                     calendarFunc(DG);
-                    calendar.fullCalendar('renderEvent', {
-                        title: title,
-                        start: start,
-                        end: end,
-                        allDay: allDay
-                    }, true // make the event "stick"
+
+                    calendar.fullCalendar('renderEvent',
+                        {
+                            title: title,
+                            start: start,
+                            end: end,
+                            allDay: (<any>allDay)
+                        },
+                        true // make the event "stick"
                     );
                 }
                 calendar.fullCalendar('unselect');
@@ -84,6 +101,7 @@ var CalendarScript;
             editable: false,
             events: evs
         });
+
         function calendarFunc(data) {
             console.log("tulee tänne");
             $.ajax({
@@ -100,7 +118,7 @@ var CalendarScript;
                 }
             });
         }
-    }
-    ;
-})(CalendarScript || (CalendarScript = {}));
-//# sourceMappingURL=CalendarScript.js.map
+
+    };
+
+}

@@ -1,4 +1,4 @@
-namespace DeviceBooker.Model.Migrations
+namespace testi7.Model.Migrations
 {
     using System;
     using System.Data.Entity;
@@ -26,18 +26,6 @@ namespace DeviceBooker.Model.Migrations
             //      new Person { FullName = "Rowan Miller" }
             //    );
             //
-
-            var dg = new DeviceGroup { GroupName = "Raspberry Pi"};
-            context.DeviceGroups.AddOrUpdate(
-              p => p.GroupName,
-              dg
-            );
-
-            context.Devices.AddOrUpdate(
-              p => p.Name,
-              new Device { Name = "A1", DeviceGroup = dg },
-              new Device { Name = "B2", DeviceGroup = dg }
-            );
         }
     }
 }

@@ -316,21 +316,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Migrations\201703290652457_AddReservation.cs" />
-    <Compile Include="Migrations\201703290652457_AddReservation.Designer.cs">
-      <DependentUpon>201703290652457_AddReservation.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201704182136201_DeviceDescription.cs" />
-    <Compile Include="Migrations\201704182136201_DeviceDescription.Designer.cs">
-      <DependentUpon>201704182136201_DeviceDescription.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201704182144383_description.cs" />
-    <Compile Include="Migrations\201704182144383_description.Designer.cs">
-      <DependentUpon>201704182144383_description.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201704182157301_test.cs" />
-    <Compile Include="Migrations\201704182157301_test.Designer.cs">
-      <DependentUpon>201704182157301_test.cs</DependentUpon>
+    <Compile Include="Migrations\201704190933336_Initial.cs" />
+    <Compile Include="Migrations\201704190933336_Initial.Designer.cs">
+      <DependentUpon>201704190933336_Initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models.cs" />
@@ -466,17 +454,8 @@
     <Content Include="Scripts\locale\zh-tw.js" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201703290652457_AddReservation.resx">
-      <DependentUpon>201703290652457_AddReservation.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201704182136201_DeviceDescription.resx">
-      <DependentUpon>201704182136201_DeviceDescription.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201704182144383_description.resx">
-      <DependentUpon>201704182144383_description.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201704182157301_test.resx">
-      <DependentUpon>201704182157301_test.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201704190933336_Initial.resx">
+      <DependentUpon>201704190933336_Initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

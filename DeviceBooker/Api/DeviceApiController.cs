@@ -47,6 +47,15 @@ namespace DeviceBooker.Web.Api
             return true;
         }
 
+        [HttpGet]
+        [Route("Reservation/{id}")]
+        public List<Reservation> GetReservations(int id)
+        {
+            List<Reservation> Return_List = new List<Reservation>();
+            Return_List.AddRange(_ctx.Reservations.Where(res => res.DeviceId == id).ToList());
+            return Return_List;
+        }
+
         [HttpPost]
         [Route("Reservation")]
         public void AddReservation(Reservation newReservation)

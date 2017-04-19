@@ -503,7 +503,6 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <None Include="Scripts\jquery-1.11.3.intellisense.js" />
-    <Content Include="Scripts\CalendarScript.js" />
     <Content Include="Scripts\fullcalendar.js" />
     <Content Include="Scripts\fullcalendar.min.js" />
     <Content Include="Scripts\gcal.js" />
@@ -648,6 +647,7 @@
     <TypeScriptCompile Include="Scripts\App\DeviceList.ts" />
     <TypeScriptCompile Include="Scripts\App\DeviceGroupList.ts" />
     <TypeScriptCompile Include="Scripts\App\Models.ts" />
+    <TypeScriptCompile Include="Scripts\CalendarScript.ts" />
     <TypeScriptCompile Include="Scripts\typings\bootstrap\index.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\fullCalendar\fullCalendar.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\fullCalendar\v1\fullCalendar.d.ts" />

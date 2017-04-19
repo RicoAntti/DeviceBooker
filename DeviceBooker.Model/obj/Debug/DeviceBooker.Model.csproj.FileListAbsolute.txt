@@ -296,3 +296,6 @@ C:\Users\Eki\Documents\GitHub\DeviceBooker\DeviceBooker.Model\obj\Debug\DeviceBo
 C:\Users\Eki\Documents\GitHub\DeviceBooker\DeviceBooker.Model\obj\Debug\DeviceBooker.Model.csproj.GenerateResource.Cache
 C:\Users\Eki\Documents\GitHub\DeviceBooker\DeviceBooker.Model\obj\Debug\testi7.Model.dll
 C:\Users\Eki\Documents\GitHub\DeviceBooker\DeviceBooker.Model\obj\Debug\testi7.Model.pdb
+C:\Users\Eki\Documents\GitHub\DeviceBooker\DeviceBooker.Model\obj\Debug\DeviceBooker.Model.Migrations.DeviceDescription.resources
+C:\Users\Eki\Documents\GitHub\DeviceBooker\DeviceBooker.Model\obj\Debug\DeviceBooker.Model.Migrations.description.resources
+C:\Users\Eki\Documents\GitHub\DeviceBooker\DeviceBooker.Model\obj\Debug\DeviceBooker.Model.Migrations.test.resources

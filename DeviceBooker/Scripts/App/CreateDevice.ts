@@ -17,6 +17,8 @@
         $("#createDeviceBtn").on('click', function (ev) {
             var DG = new Models.Device();
             DG.Name = $("#DeviceNameEdit").val();
+            var asd = $("#DeviceDescriptionEdit").val();
+            DG.Description = asd;
             DG.DeviceGroupId = getGroupId();
             
             var def = DeviceFunctions.CreateNewDevice(DG);
@@ -40,24 +42,23 @@
     }
 
     function LoadData() {
-        Utils.blockUI("Ladataan laitteita.. odota hetki");
+        Utils.blockUI("Ladataan laiteryhmiä.. odota hetki");
         var def = DeviceFunctions.ListDeviceGroups();
         def.done((data: Models.DeviceGroup[]) => {
             Utils.unblockUI();
             if (data) {
                 deviceGroupList = data;
+                selectedGroup = deviceGroupList[0].GroupName;
                 fillDeviceGroupList(deviceGroupList);
             } else {
                 alert("virhe");
             }
         });
-        selectedGroup = deviceGroupList[0].GroupName;
+        
     }
 
     function fillDeviceGroupList(devicegrouplist: Models.DeviceGroup[]) {
-
-        
-        
+       
         for (var i = 0; i < deviceGroupList.length; i++) {
             var x = document.createElement("option");
             var t = document.createTextNode(devicegrouplist[i].GroupName);
@@ -74,5 +75,4 @@
         }
         return id;
     }
-
 }

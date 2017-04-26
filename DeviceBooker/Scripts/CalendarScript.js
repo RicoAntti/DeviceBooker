@@ -65,12 +65,6 @@ var CalendarScript;
             select: function (start, end, allDay) {
                 if (confirm("Varataanko ajalle " + start.toDate().getDate() + "." + start.toDate().getMonth() + " - " + end.toDate().getDate() + "." + end.toDate().getMonth() + "?")) {
                     var DG = new Models.Reservation();
-<<<<<<< HEAD
-                    var numbe = 1;
-                    console.log(numbe);
-=======
-                    DG.Title = title;
->>>>>>> refs/remotes/origin/Ekin-toimiva-puu
                     DG.StartTime = new Date(start);
                     DG.EndTime = new Date(end);
                     DG.DeviceId = deviceId;

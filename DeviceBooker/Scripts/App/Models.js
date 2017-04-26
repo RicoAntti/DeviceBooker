@@ -19,3 +19,4 @@ var Models;
     }());
     Models.Reservation = Reservation;
 })(Models || (Models = {}));
+//# sourceMappingURL=Models.js.map

@@ -17,6 +17,6 @@
     @Scripts.Render("~/Scripts/App/Models.js")
     @Scripts.Render("~/Scripts/CalendarScript.js")
     <script type="text/javascript">
-    window.CalendarScript.Init();
+    window.CalendarScript.Init(@ViewBag.deviceId);
     </script>
 }

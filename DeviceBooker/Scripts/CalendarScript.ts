@@ -2,11 +2,11 @@
     //var data = new FormData();
 
     var evs = [];
-
-    export function Init() {
-
+    var deviceId;
+    export function Init(deviId : number) {
+        deviceId = deviId;
         getData();
-
+        
     }
 
     function getData() {
@@ -14,13 +14,15 @@
         getReservations();
 
         function getReservations() {
-            var def = getReservationsFromDB(1);
+
+            var def = getReservationsFromDB(deviceId);
             var arra = [];
 
             def.done((data: Models.Reservation[]) => {
                 if (data) {
                     for (var i = 0; i < data.length; i++) {
                         evs.push({
+                            
                             title: data[i].Title,
                             start: data[i].StartTime,
                             end: data[i].EndTime,
@@ -77,11 +79,16 @@
             select: function (start, end, allDay) {
                 if (confirm("Varataanko ajalle " + start.toDate().getDate() + "." + start.toDate().getMonth() + " - " + end.toDate().getDate() + "." + end.toDate().getMonth()+ "?")) {
                     var DG = new Models.Reservation();
+<<<<<<< HEAD
                     var numbe = 1;
                     console.log(numbe);
+=======
+                    
+                    DG.Title = title;
+>>>>>>> refs/remotes/origin/Ekin-toimiva-puu
                     DG.StartTime = new Date(start);
                     DG.EndTime = new Date(end);
-                    DG.DeviceId = numbe;
+                    DG.DeviceId = deviceId;
                     calendarFunc(DG);
                 }
             },

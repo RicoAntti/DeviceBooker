@@ -33,4 +33,3 @@ var DeviceGroupList;
         }
     }
 })(DeviceGroupList || (DeviceGroupList = {}));
-//# sourceMappingURL=DeviceGroupList.js.map

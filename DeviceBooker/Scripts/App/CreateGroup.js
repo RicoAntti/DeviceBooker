@@ -22,4 +22,3 @@ var CreateGroup;
         });
     }
 })(CreateGroup || (CreateGroup = {}));
-//# sourceMappingURL=CreateGroup.js.map

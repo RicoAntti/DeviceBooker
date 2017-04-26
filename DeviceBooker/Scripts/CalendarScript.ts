@@ -75,35 +75,21 @@
             selectHelper: true,
             selectOverlap: false,
             select: function (start, end, allDay) {
-                var title = prompt('');
-                if (title) {
+                if (confirm("Varataanko ajalle " + start.toDate().getDate() + "." + start.toDate().getMonth() + " - " + end.toDate().getDate() + "." + end.toDate().getMonth()+ "?")) {
                     var DG = new Models.Reservation();
                     var numbe = 1;
                     console.log(numbe);
-                    DG.Title = title;
                     DG.StartTime = new Date(start);
                     DG.EndTime = new Date(end);
                     DG.DeviceId = numbe;
                     calendarFunc(DG);
-
-                    calendar.fullCalendar('renderEvent',
-                        {
-                            title: title,
-                            start: start,
-                            end: end,
-                            allDay: (<any>allDay)
-                        },
-                        true // make the event "stick"
-                    );
                 }
-                calendar.fullCalendar('unselect');
             },
             editable: false,
             events: evs
         });
 
         function calendarFunc(data) {
-            console.log("tulee tänne");
             $.ajax({
                 contentType: 'application/json; charset=utf-8',
                 dataType: "json",
@@ -111,7 +97,7 @@
                 url: "/Api/Reservation",
                 data: JSON.stringify(data),
                 success: function () {
-                    //alert('success!');
+                    window.location.reload();
                 },
                 error: function () {
                     alert('error!');

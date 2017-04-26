@@ -20,6 +20,8 @@ namespace DeviceBooker.Web.Api
         [Route("DeviceGroupList")]
         public List<DeviceGroup> ListDeviceGroups()
         {
+            var test = System.Web.HttpContext.Current.User.Identity.Name;
+            System.Diagnostics.Debug.WriteLine(test.ToString());
             return _ctx.DeviceGroups.ToList();
         }
 
@@ -65,10 +67,7 @@ namespace DeviceBooker.Web.Api
                 string title = HttpContext.Current.Request.Form.Get("Title");
                 System.Diagnostics.Debug.WriteLine("hei: " + title);
             }*/
-            System.Diagnostics.Debug.WriteLine("title: " + newReservation.Title);
-            System.Diagnostics.Debug.WriteLine("s: " + newReservation.StartTime);
-            System.Diagnostics.Debug.WriteLine("e: " + newReservation.EndTime);
-            System.Diagnostics.Debug.WriteLine("dvid: " + newReservation.DeviceId);
+            newReservation.Title = System.Web.HttpContext.Current.User.Identity.Name;
             _ctx.Reservations.Add(newReservation);
             _ctx.SaveChanges();
         }

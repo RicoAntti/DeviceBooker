@@ -67,4 +67,3 @@ var OwnCalendar;
         }
     }
 })(OwnCalendar || (OwnCalendar = {}));
-//# sourceMappingURL=OwnCalendar.js.map

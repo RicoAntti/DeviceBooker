@@ -62,14 +62,16 @@ var CalendarScript;
             selectable: true,
             selectHelper: true,
             selectOverlap: false,
-            select: function (start, end, allDay) {
-                if (confirm("Varataanko ajalle " + start.toDate().getDate() + "." + start.toDate().getMonth() + " - " + end.toDate().getDate() + "." + end.toDate().getMonth() + "?")) {
-                    var DG = new Models.Reservation();
-                    DG.StartTime = new Date(start);
-                    DG.EndTime = new Date(end);
-                    DG.DeviceId = deviceId;
-                    calendarFunc(DG);
-                }
+            select: function (start, end) {
+                $('#ReservationModal').modal('show');
+                $('#ReservationModal').find('.modal-header').text(start.toDate().getDate() + "." + start.toDate().getMonth() + " - " + end.toDate().getDate() + "." + end.toDate().getMonth());
+                //if (confirm("Varataanko ajalle " + start.toDate().getDate() + "." + start.toDate().getMonth() + " - " + end.toDate().getDate() + "." + end.toDate().getMonth() + "?")) {
+                //    var DG = new Models.Reservation();
+                //    DG.StartTime = new Date(start);
+                //    DG.EndTime = new Date(end);
+                //    DG.DeviceId = deviceId;
+                //    calendarFunc(DG);
+                //}
             },
             editable: false,
             events: evs
@@ -92,4 +94,3 @@ var CalendarScript;
     }
     ;
 })(CalendarScript || (CalendarScript = {}));
-//# sourceMappingURL=CalendarScript.js.map

@@ -29,15 +29,6 @@ namespace DeviceBooker.Web.Controllers
             return View();
         }
 
-
-        [Route("Search")]
-        public ActionResult Search()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
-        }
-
         [Route("Laitteet/{groupid}")]
         public ActionResult DeviceList(int groupid)
         {
@@ -52,5 +43,14 @@ namespace DeviceBooker.Web.Controllers
             ViewBag.deviceId = deviceId;
             return View();
         }
+
+        [Route("Omat Varaukset/")]
+        public ActionResult OwnCalendar()
+        {
+            ViewBag.user = System.Web.HttpContext.Current.User.Identity.Name;
+            return View();
+        }
+
+
     }
 }

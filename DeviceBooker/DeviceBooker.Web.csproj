@@ -627,6 +627,7 @@
     <Content Include="Views\Admin\CreateDevice.cshtml" />
     <Content Include="Views\Home\Calendar.cshtml" />
     <Content Include="Views\Admin\Admin.cshtml" />
+    <Content Include="Views\Home\OwnCalendar.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -649,6 +650,7 @@
     <TypeScriptCompile Include="Scripts\App\DeviceList.ts" />
     <TypeScriptCompile Include="Scripts\App\DeviceGroupList.ts" />
     <TypeScriptCompile Include="Scripts\App\Models.ts" />
+    <TypeScriptCompile Include="Scripts\OwnCalendar.ts" />
     <TypeScriptCompile Include="Scripts\CalendarScript.ts" />
     <TypeScriptCompile Include="Scripts\typings\bootstrap\index.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\fullCalendar\fullCalendar.d.ts" />

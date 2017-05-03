@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Http;
 using DeviceBooker.Model;
+using System.Web.Script.Serialization;
 
 namespace DeviceBooker.Web.Api
 {
@@ -55,6 +56,17 @@ namespace DeviceBooker.Web.Api
         {
             List<Reservation> Return_List = new List<Reservation>();
             Return_List.AddRange(_ctx.Reservations.Where(res => res.DeviceId == id).ToList());
+            return Return_List;
+        }
+
+        [HttpPost]
+        [Route("OwnReservation")]
+        public List<Reservation> GetOwnReservations(Reservation _res)
+        {
+            var _user = _res.Title.ToString();
+            _user = _user.Replace(@"\\", @"\");
+            List<Reservation> Return_List = new List<Reservation>();
+            Return_List.AddRange(_ctx.Reservations.Where(res => res.Title == _user).ToList());
             return Return_List;
         }
 

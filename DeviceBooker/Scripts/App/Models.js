@@ -18,4 +18,10 @@ var Models;
         return Reservation;
     }());
     Models.Reservation = Reservation;
+    var ReservationData = (function () {
+        function ReservationData() {
+        }
+        return ReservationData;
+    }());
+    Models.ReservationData = ReservationData;
 })(Models || (Models = {}));

@@ -31,5 +31,11 @@ namespace DeviceBooker.Web.Controllers
             return View();
         }
 
+        [Route("Admin")]
+        public ActionResult Admin()
+        {
+            return View();
+        }
+
     }
 }

@@ -320,6 +320,14 @@
     <Compile Include="Migrations\201704190933336_Initial.Designer.cs">
       <DependentUpon>201704190933336_Initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201704261023426_AddBorrow.cs" />
+    <Compile Include="Migrations\201704261023426_AddBorrow.Designer.cs">
+      <DependentUpon>201704261023426_AddBorrow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201704261058354_AddBRI.cs" />
+    <Compile Include="Migrations\201704261058354_AddBRI.Designer.cs">
+      <DependentUpon>201704261058354_AddBRI.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -456,6 +464,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201704190933336_Initial.resx">
       <DependentUpon>201704190933336_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201704261023426_AddBorrow.resx">
+      <DependentUpon>201704261023426_AddBorrow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201704261058354_AddBRI.resx">
+      <DependentUpon>201704261058354_AddBRI.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

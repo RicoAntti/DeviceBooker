@@ -570,8 +570,10 @@ E:\GitHub\DeviceBooker\DeviceBooker.Model\bin\Debug\System.Collections.Immutable
 E:\GitHub\DeviceBooker\DeviceBooker.Model\bin\Debug\System.Diagnostics.DiagnosticSource.xml
 E:\GitHub\DeviceBooker\DeviceBooker.Model\bin\Debug\System.Reflection.Metadata.xml
 E:\GitHub\DeviceBooker\DeviceBooker.Model\bin\Debug\System.Text.Encodings.Web.xml
-E:\GitHub\DeviceBooker\DeviceBooker.Model\obj\Debug\DeviceBooker.Model.csprojResolveAssemblyReference.cache
 E:\GitHub\DeviceBooker\DeviceBooker.Model\obj\Debug\testi7.Model.Migrations.Initial.resources
 E:\GitHub\DeviceBooker\DeviceBooker.Model\obj\Debug\DeviceBooker.Model.csproj.GenerateResource.Cache
 E:\GitHub\DeviceBooker\DeviceBooker.Model\obj\Debug\testi7.Model.dll
 E:\GitHub\DeviceBooker\DeviceBooker.Model\obj\Debug\testi7.Model.pdb
+E:\GitHub\DeviceBooker\DeviceBooker.Model\obj\Debug\DeviceBooker.Model.csprojResolveAssemblyReference.cache
+E:\GitHub\DeviceBooker\DeviceBooker.Model\obj\Debug\testi7.Model.Migrations.AddBorrow.resources
+E:\GitHub\DeviceBooker\DeviceBooker.Model\obj\Debug\testi7.Model.Migrations.AddBRI.resources

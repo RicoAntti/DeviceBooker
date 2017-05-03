@@ -71,5 +71,68 @@ namespace DeviceBooker.Web.Api
             _ctx.Reservations.Add(newReservation);
             _ctx.SaveChanges();
         }
+
+        [HttpGet]
+        [Route("GetReservationData")]
+        public List<ReservationData> GetReservationData()
+        {
+            List<ReservationData> Return_List = new List<ReservationData>();
+
+            var tempDev = _ctx.Devices.Where(d => d.IsBorrow == true).ToList();
+
+            foreach (var td in tempDev)
+            {
+                ReservationData _rd = new ReservationData();
+                _rd.Reservation = _ctx.Reservations.Where(r => r.Id == td.BorrowResId).Single();
+                _rd.IsBorrow = true;
+                _rd.DeviceName = td.Name;
+                var tempGroup = _ctx.DeviceGroups.Where(dg => dg.Id == td.DeviceGroupId).Single();
+                _rd.GroupName = tempGroup.GroupName;
+                _rd.DeviceId = td.Id;
+                Return_List.Add(_rd);
+            }
+
+            var yesterday = DateTime.Today.AddDays(-1);
+            var nextWeek = DateTime.Today.AddDays(7);
+            var tempRes = _ctx.Reservations.Where(res => res.EndTime < nextWeek && res.EndTime > yesterday);
+
+            foreach (var res in tempRes)
+            {
+                var tempD = _ctx.Devices.Where(d => d.Id == res.DeviceId).Single();
+                if (tempD.IsBorrow == false)
+                {
+                    ReservationData _rd = new ReservationData();
+                    _rd.Reservation = res;
+                    _rd.DeviceName = tempD.Name;
+                    var tempG = _ctx.DeviceGroups.Where(dg => dg.Id == tempD.DeviceGroupId).Single();
+                    _rd.GroupName = tempG.GroupName;
+                    _rd.DeviceId = res.DeviceId;
+
+                    Return_List.Add(_rd);
+                }
+            }
+
+            return Return_List;
+        }
+
+        [HttpGet]
+        [Route("Borrow/{DevId}_{ResId}")]
+        public void Borrow(int DevId, int ResId)
+        {
+            var temp = _ctx.Devices.Where(d => d.Id == DevId).Single();
+            temp.IsBorrow = true;
+            temp.BorrowResId = ResId;
+            _ctx.SaveChanges();
+        }
+
+        [HttpGet]
+        [Route("Return/{id}")]
+        public void Return(int id)
+        {
+            var temp = _ctx.Devices.Where(d => d.Id == id).Single();
+            temp.IsBorrow = false;
+            temp.BorrowResId = 0;
+            _ctx.SaveChanges();
+        }
     }
 }

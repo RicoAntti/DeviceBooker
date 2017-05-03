@@ -3,6 +3,8 @@
         constructor() { }
         Id: number;
         Name: string;
+        IsBorrow: boolean;
+        BorrowResId: number;
         Description: string;
         DeviceGroupId: number;
         DeviceGroup: Models.DeviceGroup;
@@ -22,5 +24,13 @@
         EndTime: Date;
         DeviceId: number;
         Device: Models.Device;
+    }
+
+    export class ReservationData {
+        Reservation: Models.Reservation;
+        DeviceName: string;
+        DeviceId: number;
+        GroupName: string;
+        IsBorrow: boolean;
     }
 }

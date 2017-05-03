@@ -20,6 +20,9 @@ namespace DeviceBooker.Model
         public string Name { get; set; }
         public string Description { get; set; }
 
+        public bool IsBorrow { get; set; }
+        public int BorrowResId { get; set; }
+
         //Seuraavassa luodaan yhteys ja vierasavain DeviceGroupiin:
         public int DeviceGroupId { get; set; }
         [ForeignKey("DeviceGroupId")]
@@ -47,6 +50,14 @@ namespace DeviceBooker.Model
         public virtual Device Device { get; set; }
     }
 
+    public class ReservationData
+    {
+        public Reservation Reservation { get; set; }
+        public string DeviceName { get; set; }
+        public int DeviceId { get; set; }
+        public string GroupName { get; set; }
+        public bool IsBorrow { get; set; }
+    }
 }
 
 /*  Kun SQL Server on käynnissä ja *Context.cs luotu

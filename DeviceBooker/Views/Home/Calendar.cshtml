@@ -6,6 +6,8 @@
 @Styles.RenderFormat(@"<link href=""~/Content/fullcalendar.print.css"" rel=""stylesheet"" media=""print"" />", "~Content/css")
 @Scripts.Render("~/Scripts/lib/moment.min.js")
 @Scripts.Render("~/Scripts/fullcalendar.js")
+@Styles.RenderFormat(@"<link href=""~/Content/bootstrap-datetimepicker.css"" rel=""stylesheet"" />")
+@Styles.RenderFormat(@"<link href=""~/Content/bootstrap-datetimepicker.min.css"" rel=""stylesheet"" />")
 
 <div class="row">
     <div class="col-md-6"><h2>Kalenteri</h2></div>
@@ -19,23 +21,83 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4 class="modal-title">Tämä teksti korvautuu jQueryssä:</h4>
+                <h4 class="modal-title">Luo varaus:</h4>
             </div>
             <div class="modal-body">
-                <p>Tähän inputit</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Sulje</button>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h3>Mistä:</h3>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="input-group date">
+
+                            <input type='text' class="form-control" placeholder="Issue Date" id="startDatePicker" />
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="input-group">
+                            <select class="form-control" id="startTimeSelect">
+                                <option value="08:00">08:00</option>
+                                <option value="09:00">09:00</option>
+                                <option value="10:00">10:00</option>
+                                <option value="11:00">11:00</option>
+                                <option value="12:00">12:00</option>
+                                <option value="13:00">13:00</option>
+                                <option value="14:00">14:00</option>
+                                <option value="15:00">15:00</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h3>Mihin:</h3>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="input-group date">
+
+                            <input type='text' class="form-control" placeholder="Issue Date" id="endDatePicker" />
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="input-group">
+                            <select class="form-control" id="endTimeSelect">
+                                <option value="08:00">08:00</option>
+                                <option value="09:00">09:00</option>
+                                <option value="10:00">10:00</option>
+                                <option value="11:00">11:00</option>
+                                <option value="12:00">12:00</option>
+                                <option value="13:00">13:00</option>
+                                <option value="14:00">14:00</option>
+                                <option value="15:00">15:00</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="submitButton">Luo varaus</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Sulje</button>
+                </div>
             </div>
         </div>
-
     </div>
 </div>
 
 @section Footer {
+    @Scripts.Render("~/Scripts/bootstrap-datepicker.js")
     @Scripts.Render("~/Scripts/App/Models.js")
     @Scripts.Render("~/Scripts/CalendarScript.js")
+
     <script type="text/javascript">
-    window.CalendarScript.Init(@ViewBag.deviceId);
+        window.CalendarScript.Init(@ViewBag.deviceId);
     </script>
 }

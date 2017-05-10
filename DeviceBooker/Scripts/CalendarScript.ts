@@ -3,8 +3,12 @@
 
     var evs = [];
     var deviceId;
-    export function Init(deviId : number) {
+    export function Init(deviId: number)
+   {
         deviceId = deviId;
+
+        $('#startDatePicker').datepicker({ format: 'dd.mm.yyyy' });
+        $('#endDatePicker').datepicker({ format: 'dd.mm.yyyy' });
 
         getData();
         
@@ -79,20 +83,34 @@
             selectOverlap: false,
             select: function (start, end) {
                 $('#ReservationModal').modal('show');
-                $('#ReservationModal').find('.modal-header').text(start.toDate().getDate() + "." + start.toDate().getMonth() + " - " + end.toDate().getDate() + "." + end.toDate().getMonth() );
-                //if (confirm("Varataanko ajalle " + start.toDate().getDate() + "." + start.toDate().getMonth() + " - " + end.toDate().getDate() + "." + end.toDate().getMonth() + "?")) {
-                 
 
-                //    var DG = new Models.Reservation();
+                var startDate = start.toDate().getDate() + "." + start.toDate().getMonth() + " - " + start.toDate().getFullYear();
+                var endDate = end.toDate().getDate() + "." + end.toDate().getMonth() + " - " + end.toDate().getFullYear();
 
-                //    DG.StartTime = new Date(start);
-                //    DG.EndTime = new Date(end);
-                //    DG.DeviceId = deviceId;
-                //    calendarFunc(DG);
-                //}
+                $('#startDatePicker').datepicker("setDate", startDate);
+                $('#endDatePicker').datepicker("setDate", endDate);  
             },
             editable: false,
             events: evs
+        });
+
+        $("#submitButton").on("click", function (ev) {
+            var DG = new Models.Reservation();
+
+            var startDate = $('#startDatePicker').val();
+            var startTime = $('#startTimeSelect').val();
+            var startDateTime = startDate + " " + startTime;
+            var _start = moment(startDateTime, "MM-DD-YYYY HH:mm").toDate();
+
+            var endDate = $('#endDatePicker').val();
+            var endTime = $('#endTimeSelect').val();
+            var endDateTime = endDate + " " + endTime;
+            var _end = moment(endDateTime, "MM-DD-YYYY HH:mm").toDate();
+
+            DG.StartTime = _start;
+            DG.EndTime = _end;
+            DG.DeviceId = deviceId;
+            calendarFunc(DG);
         });
 
         function calendarFunc(data) {

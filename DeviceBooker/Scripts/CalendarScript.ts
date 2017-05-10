@@ -31,7 +31,7 @@
                             title: data[i].Title,
                             start: data[i].StartTime,
                             end: data[i].EndTime,
-                            allDay: true
+                            allDay: false
                         });
                     }
                     CalendarFunctions();
@@ -78,20 +78,25 @@
                 center: 'title',
                 right: 'month,agendaWeek,agendaDay'
             },
+            displayEventTime: true,
+            displayEventEnd: true,
+            eventOverlap: false,
             selectable: true,
             selectHelper: true,
-            selectOverlap: false,
+            selectOverlap: true,
             select: function (start, end) {
                 $('#ReservationModal').modal('show');
 
-                var startDate = start.toDate().getDate() + "." + start.toDate().getMonth() + " - " + start.toDate().getFullYear();
-                var endDate = end.toDate().getDate() + "." + end.toDate().getMonth() + " - " + end.toDate().getFullYear();
+                var startDate = start.toDate().getDate() + "." + start.toDate().getMonth()+1 + " - " + start.toDate().getFullYear();
+                console.log("1: " + startDate);
+                var endDate = end.toDate().getDate() + "." + end.toDate().getMonth()+1 + " - " + end.toDate().getFullYear();
 
                 $('#startDatePicker').datepicker("setDate", startDate);
                 $('#endDatePicker').datepicker("setDate", endDate);  
             },
             editable: false,
-            events: evs
+            events: evs,
+            timeFormat: 'H:mm'
         });
 
         $("#submitButton").on("click", function (ev) {
@@ -100,14 +105,14 @@
             var startDate = $('#startDatePicker').val();
             var startTime = $('#startTimeSelect').val();
             var startDateTime = startDate + " " + startTime;
-            var _start = moment(startDateTime, "MM-DD-YYYY HH:mm").toDate();
+            var _start = moment.utc(startDateTime, "DD-MM-YYYY HH:mm").toDate();
 
             var endDate = $('#endDatePicker').val();
             var endTime = $('#endTimeSelect').val();
             var endDateTime = endDate + " " + endTime;
-            var _end = moment(endDateTime, "MM-DD-YYYY HH:mm").toDate();
+            var _end = moment.utc(endDateTime, "DD-MM-YYYY HH:mm").toDate();
 
-            DG.StartTime = _start;
+            DG.StartTime = new Date(_start);
             DG.EndTime = _end;
             DG.DeviceId = deviceId;
             calendarFunc(DG);

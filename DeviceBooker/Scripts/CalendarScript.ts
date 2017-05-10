@@ -72,14 +72,13 @@
          var y = date.getFullYear();
          */
 
-        var calendar = $('#calendar').fullCalendar({
+        var calendar = (<any>$('#calendar')).fullCalendar({
             header: {
                 left: 'prev,next today',
                 center: 'title',
                 right: 'month,agendaWeek,agendaDay'
             },
             displayEventTime: true,
-            displayEventEnd: true,
             eventOverlap: false,
             selectable: true,
             selectHelper: true,
@@ -96,7 +95,8 @@
             },
             editable: false,
             events: evs,
-            timeFormat: 'H:mm'
+            timeFormat: 'H:mm',
+            displayEventEnd: true
         });
 
         $("#submitButton").on("click", function (ev) {

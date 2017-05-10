@@ -46,20 +46,29 @@
                 var copy = borrow_template.clone();
                 var res = reslist[i];
 
+                var _time = moment(res.Reservation.StartTime).format('DD.MM HH:mm');
+                _time += " - ";
+                _time += moment(res.Reservation.EndTime).format('DD.MM HH:mm')
+
                 copy.find('.name').html(res.GroupName + " : " + res.DeviceName);
                 copy.find('.user').html(res.Reservation.Title);
+                copy.find('.time').html(_time);
                 copy.attr('id', res.DeviceId);
                 copy.removeClass('hidden');
                 b_container.append(copy);
             }
-            else if (reslist[i].IsBorrow == false)
+            if (reslist[i].Reservation.Id != reslist[i].BorrowResId)
             {
                 var copy = reservation_template.clone();
                 var res = reslist[i];
 
+                var _time = moment(res.Reservation.StartTime).format('DD.MM HH:mm');
+                _time += " - ";
+                _time += moment(res.Reservation.EndTime).format('DD.MM HH:mm')
+
                 copy.find('.name').html(res.GroupName + " : " + res.DeviceName);
                 copy.find('.user').html(res.Reservation.Title);
-                copy.find('.time').html(new Date(res.Reservation.StartTime).getDate().toString() + "." + new Date(res.Reservation.StartTime).getMonth().toString());
+                copy.find('.time').html(_time);
                 copy.attr('DevId', res.DeviceId);
                 copy.attr('ResId', res.Reservation.Id);
                 copy.removeClass('hidden');

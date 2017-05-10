@@ -32,10 +32,12 @@
                     <tr>
                         <th data-sort="string">Laite</th>
                         <th data-sort="string">Varaaja</th>
+                        <th data-sort="string">Aika</th>
                     </tr>
                     <tr id="BorrowListTemplate" class="clickme hidden" data-href="#" onmouseover="" style="cursor: pointer;">
                         <td class="name"></td>
                         <td class="user"></td>
+                        <td class="time"></td>
                     </tr>
                 </thead>
                 <tbody id="BorrowList"></tbody>
@@ -46,7 +48,7 @@
 
 @section Footer {
     @Scripts.Render("~/Scripts/App/Models.js")
-
+    @Scripts.Render("~/Scripts/moment.js")
     @Scripts.Render("~/Scripts/App/Admin.js")
 
     <script type="text/javascript">

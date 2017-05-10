@@ -1,0 +1,53 @@
+﻿@{
+    ViewBag.Title = "Laitteet";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6"><h2>Varauksesi</h2></div>
+        <div class="col-md-6"><h2>Lainauksessasi olevat laitteet</h2></div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-6">
+            <table id="ReserveListTable" class="table table-condensed table-striped">
+                <thead>
+                    <tr>
+                        <th data-sort="string">Laite</th>
+                        <th data-sort="string">Aika</th>
+                    </tr>
+                    <tr id="ReserveListTemplate" class="clickme hidden" data-href="#" onmouseover="" style="cursor: pointer;">
+                        <td class="name"></td>
+                        <td class="user"></td>
+                        <td class="time"></td>
+                    </tr>
+                </thead>
+                <tbody id="ReserveList"></tbody>
+            </table>
+        </div>
+        <div class="col-xs-6">
+            <table id="BorrowListTable" class="table table-condensed table-striped">
+                <thead>
+                    <tr>
+                        <th data-sort="string">Laite</th>
+                    </tr>
+                    <tr id="BorrowListTemplate" class="clickme hidden" data-href="#" onmouseover="" style="cursor: pointer;">
+                        <td class="name"></td>
+                        <td class="user"></td>
+                    </tr>
+                </thead>
+                <tbody id="BorrowList"></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+@section Footer {
+    @Scripts.Render("~/Scripts/App/Models.js")
+    @Scripts.Render("~/Scripts/moment.js")
+    @Scripts.Render("~/Scripts/App/OwnReservation.js")
+
+    <script type="text/javascript">
+        window.OwnReservation.Init('@Html.Raw(HttpUtility.JavaScriptStringEncode(ViewBag.user))');
+    </script>
+}

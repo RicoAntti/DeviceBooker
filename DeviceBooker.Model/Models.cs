@@ -57,6 +57,7 @@ namespace DeviceBooker.Model
         public int DeviceId { get; set; }
         public string GroupName { get; set; }
         public bool IsBorrow { get; set; }
+        public int BorrowResId { get; set; }
     }
 }
 

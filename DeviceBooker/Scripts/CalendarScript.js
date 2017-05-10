@@ -62,7 +62,6 @@ var CalendarScript;
                 right: 'month,agendaWeek,agendaDay'
             },
             displayEventTime: true,
-            displayEventEnd: true,
             eventOverlap: false,
             selectable: true,
             selectHelper: true,
@@ -77,7 +76,8 @@ var CalendarScript;
             },
             editable: false,
             events: evs,
-            timeFormat: 'H:mm'
+            timeFormat: 'H:mm',
+            displayEventEnd: true
         });
         $("#submitButton").on("click", function (ev) {
             var DG = new Models.Reservation();
@@ -112,3 +112,4 @@ var CalendarScript;
     }
     ;
 })(CalendarScript || (CalendarScript = {}));
+//# sourceMappingURL=CalendarScript.js.map

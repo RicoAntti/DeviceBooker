@@ -328,6 +328,10 @@
     <Compile Include="Migrations\201704261058354_AddBRI.Designer.cs">
       <DependentUpon>201704261058354_AddBRI.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201705101058419_AddBRId.cs" />
+    <Compile Include="Migrations\201705101058419_AddBRId.Designer.cs">
+      <DependentUpon>201705101058419_AddBRId.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -470,6 +474,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201704261058354_AddBRI.resx">
       <DependentUpon>201704261058354_AddBRI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705101058419_AddBRId.resx">
+      <DependentUpon>201705101058419_AddBRId.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

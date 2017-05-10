@@ -45,7 +45,7 @@ namespace DeviceBooker.Web.Controllers
         }
 
         [Route("Omat Varaukset/")]
-        public ActionResult OwnCalendar()
+        public ActionResult OwnReservation()
         {
             ViewBag.user = System.Web.HttpContext.Current.User.Identity.Name;
             return View();

@@ -84,6 +84,33 @@ namespace DeviceBooker.Web.Api
             _ctx.SaveChanges();
         }
 
+        [HttpPost]
+        [Route("GetOwnData")]
+        public List<ReservationData> GetOwnData(Reservation res)
+        {
+            List<ReservationData> Return_List = new List<ReservationData>();
+
+            var tempRes = _ctx.Reservations.OrderBy(d => d.EndTime).Where(d => d.Title == res.Title).ToList();
+
+            foreach (var tr in tempRes)
+            {
+                ReservationData _rd = new ReservationData();
+                Device _tempDev = new Device();
+                _rd.Reservation = tr;
+                _tempDev = _ctx.Devices.Where(r => r.Id == tr.DeviceId).Single();
+                _rd.DeviceName = _tempDev.Name;
+                _rd.DeviceId = _tempDev.Id;
+                _rd.IsBorrow = _tempDev.IsBorrow;
+                _rd.BorrowResId = _tempDev.BorrowResId;
+                var tempGroup = _ctx.DeviceGroups.Where(dg => dg.Id == _tempDev.DeviceGroupId).Single();
+                _rd.GroupName = tempGroup.GroupName;
+                Return_List.Add(_rd);
+            }
+          
+            return Return_List;
+        }
+
+
         [HttpGet]
         [Route("GetReservationData")]
         public List<ReservationData> GetReservationData()
@@ -97,6 +124,7 @@ namespace DeviceBooker.Web.Api
                 ReservationData _rd = new ReservationData();
                 _rd.Reservation = _ctx.Reservations.Where(r => r.Id == td.BorrowResId).Single();
                 _rd.IsBorrow = true;
+                _rd.BorrowResId = td.BorrowResId;
                 _rd.DeviceName = td.Name;
                 var tempGroup = _ctx.DeviceGroups.Where(dg => dg.Id == td.DeviceGroupId).Single();
                 _rd.GroupName = tempGroup.GroupName;
@@ -111,9 +139,8 @@ namespace DeviceBooker.Web.Api
             foreach (var res in tempRes)
             {
                 var tempD = _ctx.Devices.Where(d => d.Id == res.DeviceId).Single();
-                if (tempD.IsBorrow == false)
-                {
                     ReservationData _rd = new ReservationData();
+                    _rd.BorrowResId = tempD.BorrowResId;
                     _rd.Reservation = res;
                     _rd.DeviceName = tempD.Name;
                     var tempG = _ctx.DeviceGroups.Where(dg => dg.Id == tempD.DeviceGroupId).Single();
@@ -121,7 +148,6 @@ namespace DeviceBooker.Web.Api
                     _rd.DeviceId = res.DeviceId;
 
                     Return_List.Add(_rd);
-                }
             }
 
             return Return_List;
@@ -144,6 +170,15 @@ namespace DeviceBooker.Web.Api
             var temp = _ctx.Devices.Where(d => d.Id == id).Single();
             temp.IsBorrow = false;
             temp.BorrowResId = 0;
+            _ctx.SaveChanges();
+        }
+
+        [HttpGet]
+        [Route("DeleteRes/{id}")]
+        public void Delete(int id)
+        {
+            var temp = _ctx.Reservations.Where(r => r.Id == id).SingleOrDefault();
+            _ctx.Reservations.Remove(temp);
             _ctx.SaveChanges();
         }
     }

@@ -32,5 +32,6 @@
         DeviceId: number;
         GroupName: string;
         IsBorrow: boolean;
+        BorrowResId: number;
     }
 }

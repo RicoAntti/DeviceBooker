@@ -577,3 +577,4 @@ E:\GitHub\DeviceBooker\DeviceBooker.Model\obj\Debug\testi7.Model.pdb
 E:\GitHub\DeviceBooker\DeviceBooker.Model\obj\Debug\DeviceBooker.Model.csprojResolveAssemblyReference.cache
 E:\GitHub\DeviceBooker\DeviceBooker.Model\obj\Debug\testi7.Model.Migrations.AddBorrow.resources
 E:\GitHub\DeviceBooker\DeviceBooker.Model\obj\Debug\testi7.Model.Migrations.AddBRI.resources
+E:\GitHub\DeviceBooker\DeviceBooker.Model\obj\Debug\testi7.Model.Migrations.AddBRId.resources

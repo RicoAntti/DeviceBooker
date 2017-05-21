@@ -50,34 +50,95 @@ var CalendarScript;
         }
     }
     function CalendarFunctions() {
-        /* var date = new Date();
-         var d = date.getDate();
-         var m = date.getMonth();
-         var y = date.getFullYear();
-         */
+        var bookedStart;
+        var bookedEnd;
         var calendar = $('#calendar').fullCalendar({
             header: {
                 left: 'prev,next today',
                 center: 'title',
-                right: 'month,agendaWeek,agendaDay'
+                right: 'month,testWeek'
             },
+            views: {
+                testWeek: {
+                    type: 'agenda',
+                    duration: { weeks: 2 },
+                    rows: 2
+                }
+            },
+            defaultView: 'testWeek',
+            businessHours: [{
+                    dow: [1, 2, 3, 4, 5],
+                    start: '08:00',
+                    end: '15:00'
+                }],
+            weekends: false,
+            timezone: 'local',
+            contentHeight: 'auto',
+            firstDay: 1,
+            minTime: '08:00',
+            maxTime: '15:00',
+            slotDuration: '01:00:00',
             displayEventTime: true,
+            displayEventEnd: true,
             eventOverlap: false,
             selectable: true,
             selectHelper: true,
-            selectOverlap: true,
+            selectOverlap: false,
             select: function (start, end) {
+                /* var today = new Date().getDate();
+                 var selectStart = start.toDate().getDate();
+                 if (selectStart >= today)
+                 {*/
                 $('#ReservationModal').modal('show');
-                var startDate = start.toDate().getDate() + "." + start.toDate().getMonth() + 1 + " - " + start.toDate().getFullYear();
+                $('#startTimeSelect option').filter(function () {
+                    return $(this).val() <= bookedStart;
+                }).prop('disabled', true);
+                $('#endTimeSelect option').filter(function () {
+                    return $(this).val() >= bookedEnd;
+                }).prop('disabled', true);
+                /*  }
+                  else
+                  {
+                      alert("varausta ei voida suorittaa tälle päivämäärälle");
+                  }*/
+                var startMonth = start.toDate().getMonth() + 1;
+                var endMonth = end.toDate().getMonth() + 1;
+                var startDate = start.toDate().getDate() + "." + startMonth + " - " + start.toDate().getFullYear();
                 console.log("1: " + startDate);
-                var endDate = end.toDate().getDate() + "." + end.toDate().getMonth() + 1 + " - " + end.toDate().getFullYear();
+                var endDate = end.toDate().getDate() + "." + endMonth + " - " + end.toDate().getFullYear();
+                var startTime = start.toDate().getHours();
+                var endTime = end.toDate().getHours();
                 $('#startDatePicker').datepicker("setDate", startDate);
+                if (startTime == '8' || startTime == '9') {
+                    $('#startTimeSelect').val('0' + startTime + ':00');
+                }
+                else {
+                    $('#startTimeSelect').val(startTime + ':00');
+                }
+                if (endTime == '8' || endTime == '9') {
+                    $('#endTimeSelect').val('0' + endTime + ':00');
+                }
+                else {
+                    $('#endTimeSelect').val(endTime + ':00');
+                }
                 $('#endDatePicker').datepicker("setDate", endDate);
             },
             editable: false,
             events: evs,
             timeFormat: 'H:mm',
-            displayEventEnd: true
+            viewRender: function (view, element) {
+                if (view.type == 'testWeek') {
+                    var viewStart = moment(view.start).format();
+                    $('#calendar .fc-prev-button').click(function () {
+                        $('#calendar').fullCalendar('gotoDate', moment(viewStart).subtract(7, 'days'));
+                        $('#calendar').fullCalendar('render');
+                    });
+                    $('#calendar .fc-next-button').click(function () {
+                        $('#calendar').fullCalendar('gotoDate', moment(viewStart).add(7, 'days'));
+                        $('#calendar').fullCalendar('render');
+                    });
+                }
+            }
         });
         $("#submitButton").on("click", function (ev) {
             var DG = new Models.Reservation();

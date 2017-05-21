@@ -33,6 +33,13 @@ namespace DeviceBooker.Web.Api
             return _ctx.Devices.Where(r => r.DeviceGroupId == id).ToList();
         }
 
+        [HttpGet]
+        [Route("DeviceListAll")]
+        public List<Device> ListDevice()
+        {
+            return _ctx.Devices.ToList();
+        }
+
         [HttpPost]
         [Route("CreateGroup")]
         public bool CreateGroup(DeviceGroup newGroup)
@@ -180,6 +187,58 @@ namespace DeviceBooker.Web.Api
             var temp = _ctx.Reservations.Where(r => r.Id == id).SingleOrDefault();
             _ctx.Reservations.Remove(temp);
             _ctx.SaveChanges();
+        }
+
+        [HttpPost]
+        [Route("DeleteDeviceGroup")]
+        public bool DeleteDeviceGroup(DeviceGroup group)
+        {
+            _ctx.DeviceGroups.Attach(group);
+            _ctx.DeviceGroups.Remove(group);
+
+            _ctx.SaveChanges();
+
+            return true;
+        }
+        [HttpPost]
+        [Route("DeleteDevice")]
+        public bool DeleteDeviceGroup(Device device)
+        {
+            _ctx.Devices.Attach(device);
+            _ctx.Devices.Remove(device);
+
+            _ctx.SaveChanges();
+
+            return true;
+        }
+        [Route("UpdateDeviceGroup")]
+        public bool UpdateDeviceGroup(DeviceGroup group)
+        {
+
+            var result = _ctx.DeviceGroups.SingleOrDefault(b => b.Id == group.Id);
+            if (result != null)
+            {
+                result.GroupName = group.GroupName;
+                _ctx.SaveChanges();
+            }
+
+            return true;
+        }
+        [HttpPost]
+        [Route("UpdateDevice")]
+        public bool UpdateDevice(Device device)
+        {
+
+            var result = _ctx.Devices.SingleOrDefault(b => b.Id == device.Id);
+            if (result != null)
+            {
+                result.Name = device.Name;
+                result.Description = device.Description;
+                result.DeviceGroupId = device.DeviceGroupId;
+                _ctx.SaveChanges();
+            }
+
+            return true;
         }
     }
 }

@@ -4,30 +4,253 @@
 
 <div class="container" style="padding-top: 30px";>
     <div class="row">
-        <div class="col-xs-10">
-            <div class="col-xs-2">
-                <label for="groupNameedit">Ryhmän nimi</label>
+        <div class="col-xs-6">
+            <div class="row">
+                <div class="col-md-6"><h2>Laiteryhmän lisäys</h2></div>
             </div>
-            <div class="col-xs-8">
-                    <input type="text" class="form-control" name="groupNameEdit" id="groupNameEdit" />
+
+            <div class="row">
+
+                <div class="col-xs-9">
+                    <div class="col-xs-4">
+                        <label for="groupNameedit">Ryhmän nimi:</label>
+                    </div>
+                    <div class="col-xs-8">
+                        <input type="text" class="form-control" name="groupNameEdit" id="groupNameEdit" />
+                    </div>
+
+                </div>
+                <div class="col-xs-6 pull-right">
+                    <button id="createGroupBtn" type="button" class="btn btn-success">Tallenna</button>
+                </div>
             </div>
-       </div>
-    </div>
-    <div class="row">
-        <div class="col-xs-2 pull-right">  
-            <button id="createGroupBtn" type="button" class="btn btn-success"><i class="glyphicon glyphicon-floppy-disk"></i></button>
+
+            <div class="row">
+                <div class="col-md-10"><h2>Olemassa olevat ryhmät</h2></div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <table id="deviceGroupListTable" class="table table-condensed table-striped">
+                        <thead>
+
+                            <tr id="deviceGroupListItemTemplate" class="hidden">
+                                <td>
+                                    <b class="col-xs-12 text-center DeviceListBtn" href="#" style="height: 35px; padding-top: 3px; font-size: 20px;"></b>
+                                </td>
+                                <td>
+                                    <a class="btn btn-xs btn-default editBtn" data-toggle="modal" data-target="#myModal" onclick="window.CreateGroup.openModal(this);" href="#" style="height: 35px; padding-top: 3px; font-size: 20px; background-color: #f5f5f5" ;>Muokkaa</a>
+                                </td>
+                                <td>
+                                    <a class="btn btn-xs btn-default showBtn" href="#" onclick="window.CreateDevice.ShowDevices(this);" style="height: 35px; padding-top: 3px; font-size: 20px; background-color: #f5f5f5" ;>Laitteet</a>
+                                </td>
+                                <td>
+                                    <a class="btn btn-xs btn-default deleteBtn" href="#" onclick="window.CreateGroup.deleteGroup(this);" style="height: 35px; padding-top: 3px; font-size: 20px; background-color: #f5f5f5" ;>Poista</a>
+                                </td>
+                            </tr>
+                        </thead>
+                        <tbody id="deviceGroupList"></tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="row">
+                <div cclass="col-xs-12">
+                    <table id="deviceListTable2" class="table table-condensed table-striped hidden">
+                        <thead id="deviceGroupListItemTemplate2">
+                            <tr>
+                                <th class="">Nimi</th>
+                                <th data-sort="string">Kuvaus</th>
+                                <th data-sort="string"></p></th>
+                                <th data-sort="string"></th>
+                            </tr>
+                            <tr id="deviceListItemTemplate3" class="clickme hidden" data-href="#" onmouseover="" style="cursor: pointer;">
+                                <td class="col-xs-4 name"></td>
+                                <td class="col-xs-5 description"></td>
+                               
+                                <td>
+                                    <a class="btn btn-xs btn-default text-center editBtn2" data-toggle="modal" data-target="#myModal2" href="#" onclick="window.CreateDevice.openModal2(this);" style="height: 35px; padding-top: 3px; font-size: 20px; background-color: #f5f5f5" ;>Muokkaa</a>
+                                </td>
+                                <td>
+                                    <a class="btn btn-xs btn-default text-center deleteBtn2" href="#" onclick="window.DeviceList.deleteDevice(this);" style="height: 35px; padding-top: 3px; font-size: 20px; background-color: #f5f5f5" ;>Poista</a>
+                                </td>
+                            </tr>
+                        </thead>
+                        <tbody id="deviceList3"></tbody>
+                    </table>
+                </div>
+            </div>
         </div>
-        
+
+        <!-- -------------------------------------------------------------------Puolen jako------------------------------------------------------------------------------------------- -->
+
+        <div class="col-xs-6">
+            <div class="row">
+                <div class="col-md-6"><h2>Laitteen lisäys ryhmään</h2></div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-10">
+                    <div class="col-xs-2">
+                        <label for="GroupIdEdit">Valitse ryhmä</label>
+                    </div>
+                    <div class="col-xs-8">
+                        <select class="selectpicker form-control input-sm" id="groupList"></select>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-10">
+                    <div class="col-xs-2">
+                        <label for="DeviceNameEdit">Laitteen tunniste</label>
+                    </div>
+                    <div class="col-xs-8 c">
+                        <input type="text" class="form-control input-sm" name="DeviceNameEdit" id="DeviceNameEdit" />
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-10">
+                    <div class="col-xs-2">
+                        <label for="DeviceDescriptionEdit">Laitteen kuvaus</label>
+                    </div>
+                    <div class="col-xs-8">
+                        <textarea type="text" class="form-control input-sm" rows="4" name="DeviceDescriptionEdit" id="DeviceDescriptionEdit"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-2 pull-right">
+                    <button id="createDeviceBtn" type="button"  class="btn btn-success" ><i class="glyphicon glyphicon-floppy-disk"></i></button>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-6"><h2>Kaikki laitteet</h2></div>
+            </div>
+
+            <div class="row">
+                <div cclass="col-xs-12">
+                    <table id="deviceListTable" class="table table-condensed table-striped">
+                        <thead>
+                            <tr>
+                                <th  class="">Nimi</th>
+                                <th data-sort="string">Kuvaus</th>
+                                <th data-sort="string">Ryhmä</th>
+                                <th data-sort="string"></p></th>
+                                <th data-sort="string"></th>
+                            </tr>
+                            <tr id="deviceListItemTemplate2" class="clickme hidden" data-href="#" onmouseover="" style="cursor: pointer;">
+                                <td class="col-xs-4 name"></td>
+                                <td class="col-xs-5 description"></td>
+                                <td class="col-xs-4 group"></td>
+                                <td>
+                                    <a class="btn btn-xs btn-default text-center editBtn2" data-toggle="modal" data-target="#myModal2"  href="#" onclick="window.CreateDevice.openModal2(this);" style="height: 35px; padding-top: 3px; font-size: 20px; background-color: #f5f5f5";>Muokkaa</a>
+                                </td>
+                                <td>
+                                    <a class="btn btn-xs btn-default text-center deleteBtn2" href="#" onclick="window.DeviceList.deleteDevice(this);" style="height: 35px; padding-top: 3px; font-size: 20px; background-color: #f5f5f5" ;>Poista</a>
+                                </td>
+                            </tr>
+                        </thead>
+                        <tbody id="deviceList2"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
     </div>
+</div>
+
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Muokkaa laiteryhmää</h4>
+            </div>
+            <div class="modal-body">
+                <p>Laiteryhmän nimi: <input id="groupNameModal" value="test"/></p>
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default closeBtn" data-dismiss="modal">sulje</button>
+                <button type="button" class="btn btn-default saveBtn" onclick="window.CreateGroup.saveGroupName(this);" data-dismiss="modal">Tallenna</button>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<div id="myModal2" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal2 content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Muokkaa laiteryhmää</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-xs-10">
+                        <div class="col-xs-2">
+                            <label for="GroupIdEdit2">Valitse ryhmä</label>
+                        </div>
+                        <div class="col-xs-8">
+                            <select class="selectpicker form-control input-sm" id="groupList2"></select>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-10">
+                        <div class="col-xs-2">
+                            <label for="DeviceNameEdit2">Laitteen tunniste</label>
+                        </div>
+                        <div class="col-xs-8 c">
+                            <input type="text" class="form-control input-sm" name="DeviceNameEdit2" id="DeviceNameEdit2" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-10">
+                        <div class="col-xs-2">
+                            <label for="DeviceDescriptionEdit2">Laitteen kuvaus</label>
+                        </div>
+                        <div class="col-xs-8">
+                            <textarea type="text" class="form-control input-sm" rows="4" name="DeviceDescriptionEdit2" id="DeviceDescriptionEdit2"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default closeBtn2" data-dismiss="modal">sulje</button>
+                <button type="button" class="btn btn-default saveBtn2" onclick="window.CreateDevice.Save(this);" data-dismiss="modal">Tallenna</button>
+            </div>
+        </div>
+
+    </div>
+
 </div>
 
 @section Footer {
     @Scripts.Render("~/Scripts/App/Models.js")
-
+@Scripts.Render("~/Scripts/App/DeviceList.js")
+    @Scripts.Render("~/Scripts/App/CreateDevice.js")
     @Scripts.Render("~/Scripts/App/CreateGroup.js")
     @Scripts.Render("~/Scripts/App/DeviceFunctions.js")
+    
 
     <script type="text/javascript">
-    window.CreateGroup.Init();
+        window.CreateDevice.Init();
+        window.CreateGroup.Init();
+
+        window.DeviceList.LoadAllData();
+        
+        //window.DeviceGroupList.Init();
     </script>
 }

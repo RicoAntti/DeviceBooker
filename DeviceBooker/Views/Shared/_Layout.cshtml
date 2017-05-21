@@ -11,6 +11,10 @@
     @Scripts.Render("~/Scripts/App/Models.js")
     @Scripts.Render("~/Scripts/App/Common.js")
 
+    <script type="text/javascript">
+        var APIBaseUrl = /Api/;
+    </script>
+
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top text-white" style="background-color: #f44292;">
@@ -27,8 +31,7 @@
                     <ul class="nav navbar-nav">             
                         <li>@Html.ActionLink("Laitteet", "DeviceGroupList", "Home", null, new { style = "color: white" })</li>
                         <li>@Html.ActionLink("Omat varaukset", "OwnReservation", "Home", null, new { style = "color: white" })</li>
-                        <li>@Html.ActionLink("Luo laiteryhmä", "CreateGroup", "Admin", null, new { style = "color: white" })</li>
-                        <li>@Html.ActionLink("Lisää laite ryhmään", "CreateDevice", "Admin", null, new { style = "color: white" })</li>
+                        <li>@Html.ActionLink("Laitteiden hallinta", "CreateGroup", "Admin", null, new { style = "color: white" })</li>
                         <li>@Html.ActionLink("Admin", "Admin", "Admin", null, new { style = "color: white" })</li>
                     </ul>
             </div>
